@@ -16,3 +16,7 @@
 5. **Run the project** with ./gradlew bootRun or bootRun task
 6. **Hit the GET API** of orders using this curl - curl --location --request GET 'http://localhost:8080/order/7817'
 7. **Go back to zipkin dashboard and check individual or "all" registered services traces.**
+
+![zipkin dashboard with registered apps](https://github.com/user-attachments/assets/df159631-d417-491a-bfca-9dd5fc7cd1c5)
+![zipkin trace](https://github.com/user-attachments/assets/767cdc1c-fd2d-4ff9-af83-3927da1024dc)
+![zipkin distributed tracing](https://github.com/user-attachments/assets/0f682518-9624-4b89-8727-56a9d8480deb)
