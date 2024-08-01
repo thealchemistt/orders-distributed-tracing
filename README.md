@@ -9,8 +9,10 @@
    ```sh
    java -jar zipkin-server-2.12.9-exec.jar
 
-Open http://localhost:9411/zipkin in your browser it should make you see zipkin dashboard.
-Mention this same base url in your application.properties.
-Run the project with ./gradlew bootRun or bootRun task
-Hit the GET API of orders using this curl - curl --location --request GET 'http://localhost:8080/order/7817'
-Go back to zipkin dashboard and check individual or "all" registered services traces.
+3. **Access Zipkin Dashboard**: Open http://localhost:9411/zipkin in your browser to see the Zipkin dashboard.
+
+4. **Configure Application:** Mention the same base URL in your application.properties file.
+
+5. **Run the project** with ./gradlew bootRun or bootRun task
+6. **Hit the GET API** of orders using this curl - curl --location --request GET 'http://localhost:8080/order/7817'
+7. **Go back to zipkin dashboard and check individual or "all" registered services traces.**
