@@ -1,0 +1,229 @@
+2024-08-01T02:46:44.341+05:30  INFO [orders,,] 13296 --- [orders] [main] com.example.orders.OrdersApplication     : Starting OrdersApplication using Java 17.0.11 with PID 13296 (E:\Tech - HLD LLD Scaler\orders\build\classes\java\main started by Yagnesh in E:\Tech - HLD LLD Scaler\orders)
+2024-08-01T02:46:44.341+05:30  INFO [orders,,] 13296 --- [orders] [main] com.example.orders.OrdersApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-08-01T02:46:46.779+05:30  INFO [orders,,] 13296 --- [orders] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-01T02:46:46.875+05:30  INFO [orders,,] 13296 --- [orders] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01T02:46:46.876+05:30  INFO [orders,,] 13296 --- [orders] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-01T02:46:47.251+05:30  INFO [orders,,] 13296 --- [orders] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01T02:46:47.252+05:30  INFO [orders,,] 13296 --- [orders] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2824 ms
+2024-08-01T02:46:48.398+05:30  INFO [orders,,] 13296 --- [orders] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-01T02:46:49.114+05:30  INFO [orders,,] 13296 --- [orders] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-01T02:46:49.131+05:30  INFO [orders,,] 13296 --- [orders] [main] com.example.orders.OrdersApplication     : Started OrdersApplication in 5.72 seconds (process running for 6.249)
+2024-08-01T02:49:46.683+05:30  INFO [orders,,] 13296 --- [orders] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01T02:49:46.683+05:30  INFO [orders,,] 13296 --- [orders] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-01T02:49:46.685+05:30  INFO [orders,,] 13296 --- [orders] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-01T02:49:46.968+05:30  INFO [orders,,] 13296 --- [orders] [http-nio-8080-exec-1] c.example.orders.service.OrderService    : Placing order for product: 123
+2024-08-01T03:07:12.927+05:30  INFO [orders,,] 11796 --- [orders] [main] com.example.orders.OrdersApplication     : Starting OrdersApplication using Java 17.0.11 with PID 11796 (E:\Tech - HLD LLD Scaler\orders\build\classes\java\main started by Yagnesh in E:\Tech - HLD LLD Scaler\orders)
+2024-08-01T03:07:12.990+05:30  INFO [orders,,] 11796 --- [orders] [main] com.example.orders.OrdersApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-08-01T03:07:14.283+05:30  INFO [orders,,] 11796 --- [orders] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-01T03:07:14.291+05:30  INFO [orders,,] 11796 --- [orders] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01T03:07:14.291+05:30  INFO [orders,,] 11796 --- [orders] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-01T03:07:14.403+05:30  INFO [orders,,] 11796 --- [orders] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01T03:07:14.403+05:30  INFO [orders,,] 11796 --- [orders] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1373 ms
+2024-08-01T03:07:15.072+05:30  INFO [orders,,] 11796 --- [orders] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-01T03:07:15.132+05:30  INFO [orders,,] 11796 --- [orders] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-01T03:07:15.141+05:30  INFO [orders,,] 11796 --- [orders] [main] com.example.orders.OrdersApplication     : Started OrdersApplication in 2.673 seconds (process running for 2.981)
+2024-08-01T03:09:11.207+05:30  INFO [orders,,] 11796 --- [orders] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01T03:09:11.208+05:30  INFO [orders,,] 11796 --- [orders] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-01T03:09:11.209+05:30  INFO [orders,,] 11796 --- [orders] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-01T03:09:11.364+05:30  INFO [orders,,] 11796 --- [orders] [http-nio-8080-exec-2] c.example.orders.service.OrderService    : Placing order for product: 123
+2024-08-01 09:58:19.429  INFO [orders,,] 10848 --- [main] com.example.orders.OrdersApplication     : Starting OrdersApplication using Java 11.0.24 on DESKTOP-QAVE7SK with PID 10848 (E:\Tech-HLD-LLD-Scaler\orders\build\classes\java\main started by Yagnesh in E:\Tech-HLD-LLD-Scaler\orders)
+2024-08-01 09:58:19.460  INFO [orders,,] 10848 --- [main] com.example.orders.OrdersApplication     : No active profile set, falling back to default profiles: default
+2024-08-01 09:58:20.069  INFO [orders,,] 10848 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=683e36c6-82e0-3d54-85df-b17baa0b77bd
+2024-08-01 09:58:20.538  INFO [orders,,] 10848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-01 09:58:20.554  INFO [orders,,] 10848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01 09:58:20.554  INFO [orders,,] 10848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-08-01 09:58:20.694  INFO [orders,,] 10848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01 09:58:20.694  INFO [orders,,] 10848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1203 ms
+2024-08-01 09:58:20.898  WARN [orders,,] 10848 --- [main] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect}]
+2024-08-01 09:58:21.866  INFO [orders,,] 10848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-01 09:58:22.038  INFO [orders,,] 10848 --- [main] com.example.orders.OrdersApplication     : Started OrdersApplication in 3.307 seconds (JVM running for 3.809)
+2024-08-01 10:01:48.043  INFO [orders,,] 10848 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 10:01:48.044  INFO [orders,,] 10848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-01 10:01:48.044  INFO [orders,,] 10848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-01 10:01:48.079  INFO [orders,4d379cceb210708b,4d379cceb210708b] 10848 --- [http-nio-8080-exec-1] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:01:48.110 ERROR [orders,,] 10848 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8081/payment/123": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect] with root cause
+
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:558) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:277) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:376) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:397) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1252) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1186) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1080) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1014) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:109) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.cloud.sleuth.instrument.web.mvc.TracingClientHttpRequestInterceptor.intercept(TracingClientHttpRequestInterceptor.java:69) ~[spring-cloud-sleuth-instrumentation-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.instrument.web.client.LazyTraceClientHttpRequestInterceptor.intercept(LazyTraceClientHttpRequestInterceptor.java:51) ~[spring-cloud-sleuth-instrumentation-3.0.4.jar:3.0.4]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334) ~[spring-web-5.3.10.jar:5.3.10]
+	at com.example.orders.service.OrderService.placeOrder(OrderService.java:22) ~[main/:na]
+	at com.example.orders.controller.OrderController.placeOrder(OrderController.java:16) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89) ~[spring-cloud-sleuth-instrumentation-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:114) ~[spring-cloud-sleuth-autoconfigure-3.0.4.jar:3.0.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2024-08-01 10:01:49.120  WARN [orders,,] 10848 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2024-08-01 10:01:49.120  WARN [orders,,] 10848 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:277) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:376) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:397) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1252) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1186) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1080) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1014) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.10.jar:5.3.10]
+	... 9 common frames omitted
+
+2024-08-01 10:22:06.957  INFO [orders,,] 12384 --- [main] com.example.orders.OrdersApplication     : Starting OrdersApplication using Java 11.0.24 on DESKTOP-QAVE7SK with PID 12384 (E:\Tech-HLD-LLD-Scaler\orders\build\classes\java\main started by Yagnesh in E:\Tech-HLD-LLD-Scaler\orders)
+2024-08-01 10:22:06.988  INFO [orders,,] 12384 --- [main] com.example.orders.OrdersApplication     : No active profile set, falling back to default profiles: default
+2024-08-01 10:22:07.926  INFO [orders,,] 12384 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=683e36c6-82e0-3d54-85df-b17baa0b77bd
+2024-08-01 10:22:08.484  INFO [orders,,] 12384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-01 10:22:08.500  INFO [orders,,] 12384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01 10:22:08.500  INFO [orders,,] 12384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-08-01 10:22:08.625  INFO [orders,,] 12384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01 10:22:08.640  INFO [orders,,] 12384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1621 ms
+2024-08-01 10:22:08.906  WARN [orders,,] 12384 --- [main] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2024-08-01 10:22:10.031  INFO [orders,,] 12384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-01 10:22:10.218  INFO [orders,,] 12384 --- [main] com.example.orders.OrdersApplication     : Started OrdersApplication in 3.807 seconds (JVM running for 4.194)
+2024-08-01 10:22:25.155  INFO [orders,,] 12384 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 10:22:25.156  INFO [orders,,] 12384 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-01 10:22:25.157  INFO [orders,,] 12384 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-01 10:22:25.748  INFO [orders,77d64742e8065b5e,77d64742e8065b5e] 12384 --- [http-nio-8080-exec-2] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:22:27.794  WARN [orders,,] 12384 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2024-08-01 10:22:27.831  WARN [orders,,] 12384 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 3 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:724) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1636) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[na:na]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[na:na]
+	at org.springframework.http.client.SimpleClientHttpResponse.getRawStatusCode(SimpleClientHttpResponse.java:55) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.hasError(DefaultResponseErrorHandler.java:64) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:807) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777) ~[spring-web-5.3.10.jar:5.3.10]
+	... 9 common frames omitted
+
+2024-08-01 10:25:46.354  INFO [orders,938e79fe31f5b7db,938e79fe31f5b7db] 12384 --- [http-nio-8080-exec-5] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:25:47.760  INFO [orders,99883741a1e01f10,99883741a1e01f10] 12384 --- [http-nio-8080-exec-6] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:25:48.769  INFO [orders,630a8cc1fff8a4b7,630a8cc1fff8a4b7] 12384 --- [http-nio-8080-exec-7] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:25:49.795  INFO [orders,635aebb9434a154f,635aebb9434a154f] 12384 --- [http-nio-8080-exec-8] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:25:50.669  INFO [orders,075a098f098409b2,075a098f098409b2] 12384 --- [http-nio-8080-exec-9] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:25:51.572  INFO [orders,7aa7c4d8a0953257,7aa7c4d8a0953257] 12384 --- [http-nio-8080-exec-10] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:25:52.591  INFO [orders,96787154ecc04fe8,96787154ecc04fe8] 12384 --- [http-nio-8080-exec-1] com.example.orders.service.OrderService  : Placing order for product: 123
+2024-08-01 10:26:00.106  INFO [orders,f6fc9ad699c402d5,f6fc9ad699c402d5] 12384 --- [http-nio-8080-exec-2] com.example.orders.service.OrderService  : Placing order for product: 563
+2024-08-01 10:26:05.399  INFO [orders,3686bafb52a8f869,3686bafb52a8f869] 12384 --- [http-nio-8080-exec-3] com.example.orders.service.OrderService  : Placing order for product: 892
+2024-08-01 10:26:09.826  INFO [orders,23d64fd98de8b5fc,23d64fd98de8b5fc] 12384 --- [http-nio-8080-exec-4] com.example.orders.service.OrderService  : Placing order for product: 1211
+2024-08-01 10:26:14.835  INFO [orders,cbc7ce4b6465c4e9,cbc7ce4b6465c4e9] 12384 --- [http-nio-8080-exec-5] com.example.orders.service.OrderService  : Placing order for product: 7817
